@@ -1,2 +1,4 @@
 node_modules
-dist
+distnode_modules/
+dist/
+.cache/
