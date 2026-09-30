@@ -147,12 +147,12 @@
   pointer-events: auto;
 }
 .mobile-menu a {
-  font-family: "Cormorant Garamond", "Amiri", Georgia, serif;
+  font-family: var(--font-display);
   font-size: 2rem;
   color: var(--text);
 }
 [dir="rtl"] .mobile-menu a {
-  font-family: "Amiri", "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-display);
 }
 
 @media (max-width: 860px) {
@@ -381,12 +381,12 @@
   color: #f5f0e6;
 }
 .sig-meta h4 {
-  font-family: "Cormorant Garamond", "Amiri", serif;
+  font-family: var(--font-display);
   font-size: 1.6rem;
   font-weight: 500;
 }
 [dir="rtl"] .sig-meta h4 {
-  font-family: "Amiri", "Cormorant Garamond", serif;
+  font-family: var(--font-display);
   font-weight: 700;
 }
 .sig-meta p {
@@ -442,12 +442,12 @@
   border-bottom: 1px solid var(--border);
 }
 .menu-item-name {
-  font-family: "Cormorant Garamond", "Amiri", serif;
+  font-family: var(--font-display);
   font-size: 1.35rem;
   font-weight: 500;
 }
 [dir="rtl"] .menu-item-name {
-  font-family: "Amiri", "Cormorant Garamond", serif;
+  font-family: var(--font-display);
   font-weight: 700;
 }
 .menu-item-detail {
@@ -814,7 +814,7 @@
   align-items: flex-start;
 }
 .footer-brand {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 0.3em;
