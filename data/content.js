@@ -40,7 +40,10 @@ export const t = {
   menu: {
     eyebrow: { ar: "القائمة", en: "The menu" },
     title: { ar: "قائمة مفتوحة على المواسم", en: "A menu open to the seasons" },
-    note: { ar: "* الأسعار قد تتغير حسب توفر المكونات الموسمية", en: "* Prices may vary based on seasonal ingredient availability" },
+    note: {
+      ar: "* الأسعار قد تتغير حسب توفر المكونات الموسمية",
+      en: "* Prices may vary based on seasonal ingredient availability",
+    },
   },
   experience: {
     eyebrow: { ar: "الغرفة", en: "The room" },
@@ -100,7 +103,8 @@ export const t = {
     hoursLabel: { ar: "ساعات", en: "Hours" },
     hoursPlaceholder: { ar: "تُحدَّد لاحقاً", en: "To be confirmed" },
     mapsLabel: { ar: "فتح في خرائط جوجل", en: "Open in Google Maps" },
-    mapsUrl: "https://www.google.com/maps/place/Napoli+restocaf%C3%A9/@33.519432,36.2798233,17z/data=!3m1!4b1!4m6!3m5!1s0x1518e700717f1bf3:0xd2cc0734db9202ba!8m2!3d33.519432!4d36.2823983!16s%2Fg%2F11w2h5n8fs?entry=ttu&g_ep=EgoyMDI2MDkyNy4wIKXMDSoASAFQAw%3D%3D",
+    mapsUrl:
+      "https://www.google.com/maps/place/Napoli+restocaf%C3%A9/@33.519432,36.2798233,17z/data=!3m1!4b1!4m6!3m5!1s0x1518e700717f1bf3:0xd2cc0734db9202ba!8m2!3d33.519432!4d36.2823983!16s%2Fg%2F11w2h5n8fs?entry=ttu&g_ep=EgoyMDI2MDkyNy4wIKXMDSoASAFQAw%3D%3D",
   },
   finalCta: {
     eyebrow: { ar: "احجز", en: "Reserve" },
@@ -126,42 +130,42 @@ export const t = {
 
 export const galleryImages = [
   {
-    src: "/assets/images/res.webp",
+    src: "./assets/images/res.webp",
     alt: "Warm restaurant interior",
   },
   {
-    src: "/assets/images/dish10.webp",
+    src: "./assets/images/dish10.webp",
     alt: "Italian pasta on a dark plate",
   },
   {
-    src: "/assets/images/dish11.webp",
+    src: "./assets/images/dish11.webp",
     alt: "Wine glasses and warm light",
   },
   {
-    src: "/assets/images/dish12.webp",
+    src: "./assets/images/dish12.webp",
     alt: "Pasta with pesto drizzle",
   },
   {
-    src: "/assets/images/dish3.webp",
+    src: "./assets/images/dish3.webp",
     alt: "Margherita pizza on black backdrop",
   },
   {
-    src: "/assets/images/dish4.webp",
+    src: "./assets/images/dish4.webp",
     alt: "Elegant restaurant seating",
   },
   {
-    src: "/assets/images/dish7.webp",
+    src: "./assets/images/dish7.webp",
     alt: "Hands adding basil to spaghetti",
   },
   {
-    src: "/assets/images/dish8.webp",
+    src: "./assets/images/dish8.webp",
     alt: "Cozy table setting with warm lighting",
   },
 ];
 
 export const signatureDishes = [
   {
-    src: "/assets/images/dish10.webp",
+    src: "./assets/images/dish10.webp",
     ar: "تاغلياتيلي بالليمون",
     en: "Lemon tagliatelle",
     detailAr: "زبدة، ليمون، فلفل أسود، بارميزان",
@@ -169,7 +173,7 @@ export const signatureDishes = [
     size: "large",
   },
   {
-    src: "/assets/images/dish9.webp",
+    src: "./assets/images/dish9.webp",
     ar: "مارغريتا نابوليتانا",
     en: "Margherita Napoletana",
     detailAr: "طماطم، فيور دي لاتيه، ريحان",
@@ -177,7 +181,7 @@ export const signatureDishes = [
     size: "medium",
   },
   {
-    src: "/assets/images/dish12.webp",
+    src: "./assets/images/dish12.webp",
     ar: "فطر و ترافل",
     en: "Mushroom & truffle",
     detailAr: "فطر بري، كريمة، زيت ترافل",
@@ -185,7 +189,7 @@ export const signatureDishes = [
     size: "medium",
   },
   {
-    src: "/assets/images/dish11.webp",
+    src: "./assets/images/dish11.webp",
     ar: "بانّا كوتا الفانيلا",
     en: "Vanilla panna cotta",
     detailAr: "فانيلا، توت موسمي، قشر ليمون",
@@ -194,7 +198,7 @@ export const signatureDishes = [
   },
 ];
 
-export const heroImage = "/assets/images/hero.webp";
+export const heroImage = "./assets/images/hero.webp";
 
 export const interiorImages = {
   wide: "./assets/images/res1.webp",
@@ -204,5 +208,4 @@ export const interiorImages = {
 export const storyImage =
   "https://images.pexels.com/photos/11209143/pexels-photo-11209143.jpeg?auto=compress&cs=tinysrgb&w=1400";
 
-export const finalCtaImage =
-  "./assets/images/last.webp";
+export const finalCtaImage = "./assets/images/last.webp";

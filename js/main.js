@@ -22,7 +22,7 @@ function render() {
   app.innerHTML = `
     <nav class="nav">
       <a href="#top" class="nav-wordmark" aria-label="NAPOLI">
-   <img src="/assets/images/logo.webp"/>
+   <img src="./assets/images/logo.webp"/>
 </a>
       <div class="nav-links">
         <a href="#menu" class="nav-link" data-i18n="nav.menu"></a>
@@ -260,10 +260,10 @@ function render() {
 }
 
 function initImageErrorHandler() {
-  document.querySelectorAll('img').forEach(img => {
-    img.addEventListener('error', function() {
-      this.style.opacity = '0.5';
-      this.alt = 'Image not available';
+  document.querySelectorAll("img").forEach((img) => {
+    img.addEventListener("error", function () {
+      this.style.opacity = "0.5";
+      this.alt = "Image not available";
     });
   });
 }

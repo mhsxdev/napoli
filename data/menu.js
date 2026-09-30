@@ -15,7 +15,7 @@ export const menuItems = [
     detailAr: "ريحان، زيت زيتون بكر، ملح البحر",
     detailEn: "Basil, extra virgin olive oil, sea salt",
     price: "12",
-    image: "/assets/images/dish10.webp",
+    image: "./assets/images/dish10.webp",
     featured: true,
   },
 
@@ -26,7 +26,7 @@ export const menuItems = [
     detailAr: "خضار موسمية، ليمون، بارميزان",
     detailEn: "Seasonal vegetables, lemon, parmesan",
     price: "10",
-    image: "/assets/images/dish9.webp",
+    image: "./assets/images/dish9.webp",
   },
 
   {
@@ -36,7 +36,7 @@ export const menuItems = [
     detailAr: "طماطم، فيور دي لاتيه، ريحان",
     detailEn: "Tomato, fior di latte, basil",
     price: "14",
-    image: "/assets/images/dish8.webp",
+    image: "./assets/images/dish8.webp",
     featured: true,
   },
 
@@ -47,7 +47,7 @@ export const menuItems = [
     detailAr: "فطر بري، كريمة، زيت ترافل",
     detailEn: "Wild mushrooms, cream, truffle oil",
     price: "17",
-    image: "/assets/images/dish7.webp",
+    image: "./assets/images/dish7.webp",
   },
 
   {
@@ -57,7 +57,7 @@ export const menuItems = [
     detailAr: "زبدة، ليمون، فلفل أسود، بارميزان",
     detailEn: "Butter, lemon, black pepper, parmesan",
     price: "15",
-    image: "/assets/images/dish6.webp",
+    image: "./assets/images/dish6.webp",
     featured: true,
   },
 
@@ -68,7 +68,7 @@ export const menuItems = [
     detailAr: "طماطم، فلفل، بقدونس، زيت زيتون",
     detailEn: "Tomato, chilli, parsley, olive oil",
     price: "13",
-    image: "/assets/images/dish1.webp",
+    image: "./assets/images/dish1.webp",
   },
 
   {
@@ -78,7 +78,7 @@ export const menuItems = [
     detailAr: "أعشاب طازجة، خضار موسمية",
     detailEn: "Fresh herbs, seasonal vegetables",
     price: "19",
-    image: "/assets/images/dish2.webp",
+    image: "./assets/images/dish2.webp",
   },
 
   {
@@ -88,7 +88,7 @@ export const menuItems = [
     detailAr: "قهوة، ماسكاربوني، كاكاو",
     detailEn: "Coffee, mascarpone, cocoa",
     price: "9",
-    image: "/assets/images/dish3.webp",
+    image: "./assets/images/dish3.webp",
     featured: true,
   },
 
@@ -99,7 +99,7 @@ export const menuItems = [
     detailAr: "فانيلا، توت موسمي، قشر ليمون",
     detailEn: "Vanilla, seasonal berries, lemon zest",
     price: "9",
-    image: "/assets/images/dish4.webp",
+    image: "./assets/images/dish4.webp",
   },
 
   {
@@ -109,6 +109,6 @@ export const menuItems = [
     detailAr: "ليمون طازج، ريحان، ماء فوار",
     detailEn: "Fresh lemon, basil, sparkling water",
     price: "7",
-    image: "/assets/images/dish5.webp",
+    image: "./assets/images/dish5.webp",
   },
 ];
