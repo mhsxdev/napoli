@@ -1,0 +1,44 @@
+html.fork-cursor-on,
+html.fork-cursor-on * {
+  cursor: none !important;
+}
+
+.fork-cursor {
+  --fork-scale: 0.11;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(225px * var(--fork-scale));
+  height: calc(349px * var(--fork-scale));
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  z-index: 2147483647;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  will-change: transform;
+}
+.fork-cursor.is-visible {
+  opacity: 1;
+}
+
+.fork-cursor svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  transform-origin: 9.4% 3.9%;
+  transition: transform 0.12s ease;
+
+  filter: drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 0.5px #fff);
+}
+.fork-cursor.is-down svg {
+  transform: scale(0.88) rotate(-6deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fork-cursor svg {
+    transition: none;
+  }
+}
